@@ -1,6 +1,5 @@
 package com.example.testleboncoin.utils
 
-import aish.android.countries.R
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment

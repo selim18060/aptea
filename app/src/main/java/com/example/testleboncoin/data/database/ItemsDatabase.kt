@@ -10,5 +10,5 @@ import com.example.testleboncoin.data.model.ItemsData
 )
 
 abstract class ItemsDatabase : RoomDatabase() {
-    abstract val ItemsDao: ItemsDao
+    abstract val itemsDao: ItemsDao
 }

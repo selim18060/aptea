@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">test le boncoin</string>
+    <string name="BASE_URL">https://static.leboncoin.fr</string>
 </resources>

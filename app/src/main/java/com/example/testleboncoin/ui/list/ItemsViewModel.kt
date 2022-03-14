@@ -19,15 +19,16 @@ class ItemsViewModel(private val repository : ItemsRepository) : ViewModel() {
     fun getAllItems() {
         showLoading.set(true)
         viewModelScope.launch {
-            val result =  repository.getAllItems()
+            repository.getAllItems().let {
 
-            showLoading.set(false)
-            when (result) {
-                is AppResult.Success -> {
-                    itemsList.value = result.successData
-                    showError.value = null
+                showLoading.set(false)
+                when (it) {
+                    is AppResult.Success -> {
+                        itemsList.value = it.successData
+                        showError.value = null
+                    }
+                    is AppResult.Error -> showError.value = it.exception.message
                 }
-                is AppResult.Error -> showError.value = result.exception.message
             }
         }
     }

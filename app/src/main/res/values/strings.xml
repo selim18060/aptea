@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">test le boncoin</string>
     <string name="BASE_URL">https://static.leboncoin.fr</string>
+    <string name="no_network_connectivity">No Network Connectivity</string>
+    <string name="title">Title : </string>
+    <string name="album_id">Album number : </string>
+
+
 </resources>

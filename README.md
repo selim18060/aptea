@@ -1,4 +1,4 @@
-# test-le-bon-coin
+# aptea
 The application will use theTechnicalTestApi. It will consist on a simple MainActivity which will display a list of items and their details. 
 
 I tried to set up the app with good practices (making the app easily scalable/editable), using Koin and Coroutines(very efficient, and has no memory leaks (the problem of AsyncTask). The code is both simple and well implemented (the problem of RxJava)).

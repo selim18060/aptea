@@ -8,7 +8,7 @@
 
         <variable
             name="item"
-            type="com.example.testleboncoin.data.model.ItemsData" />
+            type="com.example.aptea.data.model.ItemsData" />
 
     </data>
 

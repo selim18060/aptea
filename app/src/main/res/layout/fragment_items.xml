@@ -8,7 +8,7 @@
 
         <variable
             name="viewModel"
-            type="com.example.testleboncoin.ui.list.ItemsViewModel" />
+            type="com.example.aptea.ui.list.ItemsViewModel" />
 
     </data>
 

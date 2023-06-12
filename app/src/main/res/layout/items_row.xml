@@ -10,11 +10,11 @@
 
         <variable
             name="items"
-            type="com.example.testleboncoin.data.model.ItemsData" />
+            type="com.example.aptea.data.model.ItemsData" />
 
         <variable
             name="itemClickInterface"
-            type="com.example.testleboncoin.ui.list.ItemsClickListener" />
+            type="com.example.aptea.ui.list.ItemsClickListener" />
 
     </data>
 
